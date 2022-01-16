@@ -1,6 +1,6 @@
 import React from "react";
-import Header from "./Header";
-import Nevbar from "./Nevbar";
+import Header from "./Componet/Header";
+
 const App = () => {
   return (
     <div className='App'>

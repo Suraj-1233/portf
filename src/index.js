@@ -4,7 +4,7 @@ import '../src/Css/index.css'
 import'../src/Css/App.css'
 import '../src/Componet/Header'
 
-import App from '../src/Componet/App'
+import App from './App'
 
 
 ReactDOM.render(

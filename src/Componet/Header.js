@@ -1,11 +1,11 @@
 import React from 'react'
-import Nevbar from './Nevbar'
+import Navbar from './Navbar'
 import Banner from './Banner'
 const Header = () => {
     return (
         <div className='header'>
            
-            <Nevbar></Nevbar>
+            <Navbar></Navbar>
             <Banner></Banner>
         </div>
     )

@@ -20,6 +20,7 @@
   /* background-color: cornflowerblue; */
   align-items: center;
   flex-wrap:wrap;
+  background-color: #1F2235;
 }
 .nev_left{
       /* background-color: darkcyan; */
@@ -45,24 +46,68 @@ li.nev_rigth
        
 .banner{
   display: flex;
-  background-color: midnightblue;
+ 
   height: 100vh;
+ width: 100%;
+  box-sizing: border-box;
 }
 
 .banner_left{
-  width: 60%;
+  width: 45%;
+  margin-left: 8%;
+  margin-top: 15%;
 }
 .banner_rigth
 {
-  width: 40%;
+  width: 30%;
+  margin-right: 2%;
+  margin-top: 5%;
+  margin-left: 2%;
 }
 
 
+.banner_first{
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
 
+.banner_first li{
+ width: auto;
+  font-size: 150%;
+  border-color:red;
+  border-style: solid ;
+  border-radius: 60%;
+   padding: 3%;
+    margin-left: 3%;
+    margin-top: 4%;
+   
+}
 
+.logo{
+  
+  border-image: space;
+  border: solid 3px red;
+  margin: 0%;
+  border-radius: 30%;
+  background-color:black;
+  color: rgb(236, 228, 228);
+  text-decoration: none;
 
+}
+ a:hover {
+    background-color: red;
+  }
+  a:link {
+   
+    color: white;
+  }
 
-
+a{
+  text-decoration: none;
+  color: white;
+  
+}
 
 
 

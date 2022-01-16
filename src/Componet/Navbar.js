@@ -1,11 +1,11 @@
 import React from 'react'
 
-const Nevbar =()=> {
+const Navbar =()=> {
     return (
        <div className='nevbar'> 
           <div className='nev_left'>
-            
-<img alt='logo' src='./logo.png'></img>
+          <img src={require("../image/logo.png")} alt='photo'/>    
+
           </div>
          <div className='nev_rigth'>
           <li><a href='/'>home</a></li>
@@ -28,4 +28,4 @@ const Nevbar =()=> {
     )
 }
 
-export default Nevbar
+export default Navbar
