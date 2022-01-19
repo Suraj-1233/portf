@@ -49,7 +49,7 @@ const Banner = () => {
 
             </div>
             <div className='col-7 banner_rigth'>
-                <img  className='logo' src={require("../image/logo_my.jpg")} alt='photo'/>
+                {/* <img  className='logo' src={require("../image/logo_my.jpg")} alt='photo'/> */}
 
             </div>
 
